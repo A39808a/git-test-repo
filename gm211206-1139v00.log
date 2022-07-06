@@ -1,0 +1,376 @@
+dribbling to file "C:\\ProgramData\\Gatekeeper\\Logs\\GM\\2112\\gm211206-1139v00.log"
+ 
+LOG > This log file's name is "C:\ProgramData\Gatekeeper\Logs\GM\2112\gm211206-1139v00.log"
+LOG > This is log file number 0 for this session
+
+Image date: 2013-10-10 14:52
+
+Version string: "v20131010"
+
+ETA/ETD-GUI-EDI...  6 2013-03-14 Change ETA/ETD on-chart
+
+
+
+Patch files loaded: none.
+
+Lisp implementation type      : "Allegro CL Enterprise Edition"
+Lisp implementation version   : "9.0 [Windows] (Oct 10, 2013 14:46)"
+Machine type                  : "x86"
+Machine version               : "x86"
+Machine instance              : "XATLCAMP24130"
+Software type                 : "Microsoft Windows XP/Vista/7 & Server"
+Software version              : "Generic"
+Short site name               : "XATLCAMP24130"
+Object file ID                : ("lisp_build 29")
+PATH                          : 
+   C:\Program Files (x86)\Ascent\aris\bin
+   C:\Program Files (x86)\Ascent\aris\Perl\bin
+   C:\Program Files (x86)\Hummingbird\Connectivity\14.00\Exceed
+   C:\Program Files (x86)\Ascent\aris\oracle\instantclient_12_2
+   C:\Python310\Scripts\
+   C:\Python310\
+   C:\oracle\product\V11.2.0.10\bin
+   C:\Program Files (x86)\Business Objects\BusinessObjects Enterprise 12.0\win32_x86\
+   C:\windows\system32
+   C:\windows
+   C:\windows\System32\Wbem
+   C:\windows\System32\WindowsPowerShell\v1.0\
+   C:\windows\System32\OpenSSH\
+   C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0
+   C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0
+   C:\Program Files (x86)\DAL\Common Files\System
+   C:\IBM\RationalSDLC\common
+   C:\IBM\RationalSDLC\ClearCase\bin
+   C:\Program Files (x86)\IBM\gsk8\lib
+   C:\Program Files (x86)\IBM\gsk8\bin
+   C:\IBM\RationalSDLC\clearcase\RemoteClient\cteapis
+   C:\Oracle\Middleware\EPMSystem11R1\common\ODBC\Merant\7.0
+   C:\Program Files\Git\cmd
+   C:\Program Files\nodejs\
+   C:\ProgramData\chocolatey\bin
+   C:\Users\u92025\AppData\Local\Microsoft\WindowsApps
+   C:\Users\u92025\AppData\Roaming\npm
+Command line arguments        : ("C:\\Program Files (x86)\\Ascent\\Aris\\bin\\GMLISP13.EXE")
+DISPLAY                       : NIL
+Multiuser update number size  : big
+Multiuser session id size     : big
+ARIS_RUNTIME                  : "C:\\Program Files (x86)\\Ascent\\ARIS"
+
+
+Definitions changed (or created) in files loaded via load-patches:
+
+
+Allegro CL Enterprise Edition
+9.0 [Windows] (Oct 10, 2013 14:46)
+Copyright (C) 1985-2012, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This dynamic runtime copy of Allegro CL was built by:
+   [TC5967] Ascent Technology
+
+;; Optimization settings: safety 3, space 1, speed 2, debug 3.
+;; For a complete description of all compiler switches given the
+;; current optimization settings evaluate (EXPLAIN-COMPILER-SETTINGS).
+Running 8 forms from *ASCENT-STARTUP-INITIALIZATION-FORMS*...
+Turning on argument saving for all function calls.
+Clearing extended-pathname host information...
+Loaded:
+    (1) Ascent-Lisp:Defpackage
+    (2) C Functions in C-CODE Package
+    (3) XPort System Tool
+    (4) Ascent-Utilities including the Ascent Flavor System
+    (5) Ascent-Kernel Software Packages
+    (6) Ramp Software Packages
+
+Looking for patch directory: C:\Program Files (x86)\Ascent\ARIS/gm/pd20131010.pdr
+Loading patch files named in "C:\\Program Files (x86)\\Ascent\\ARIS/gm/pd20131010.pdr"
+; Fast loading C:\Program Files (x86)\Ascent\ARIS\gm\cpv-Nina-p06.wfa90
+Warning: Changing arglist pattern for generic DRAW-TIME-BOX
+ from (.INSTANCE. &KEY DATE-ONLY-P DATE-STRING TIME-OBJECT)
+ to
+         (.INSTANCE. &KEY DATE-ONLY-P DATE-STRING INCLUDE-ZULU-TIME
+          TIME-OBJECT)
+Warning: Changing arglist pattern for generic ERASE-TIME-BOX
+ from (.INSTANCE. &KEY DATE-ONLY-P DATE-STRING FONT TIME-OBJECT)
+ to
+         (.INSTANCE. &KEY DATE-ONLY-P DATE-STRING FONT
+          INCLUDE-ZULU-TIME TIME-OBJECT)
+; Fast loading C:\Program Files (x86)\Ascent\ARIS\gm\p140726a.wfa90
+; Fast loading C:\Program Files (x86)\Ascent\ARIS\gm\p141103a.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p150206a-drag-tow-patch.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p150227a-hc-red-bars-a1-a2-paper.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p150716ar2-crazy-bus-lounge-release.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p151118a-reason-readability.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p170216a-tall-screens.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p170821a-gate-inop-auto-end-default.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p180720ar2-new-spare-command.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p180925a-dl-lozenge-height-override.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p190319ar6-short-ground-time.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p200819ar2-dl-aris-cutover.wfa90
+Compiling in GM, okay to ignore undefined functions: APM::RESTART-SP and APM::INITIALIZE-SP-COMPLETELY
+; Fast loading C:\Program Files (x86)\Ascent\ARIS\gm\p160519a.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p201002-load-ongr.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p201104-bugrep.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p201104-through-fl.wfa90
+; Fast loading
+;    C:\Program Files (x86)\Ascent\ARIS\gm\p171127ar7-gate-fixed-all.wfa90
+CL-USER(1): (progn (start-gm) (exit))
+
+Image date: 2013-10-10 14:52
+
+Version string: "vNina.p06++"
+
+ETA/ETD-GUI-EDI...  6 2013-03-14 Change ETA/ETD on-chart
+ADD-SYSPAR          2 2014-06-03 System parameter patching
+
+
+PDR files loaded:
+C:\Program Files (x86)\Ascent\ARIS/gm/pd20131010.pdr
+
+Patch files loaded:
+C:\Program Files (x86)\Ascent\ARIS\gm\cpv-Nina-p06.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p140726a.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p141103a.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p150206a-drag-tow-patch.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p150227a-hc-red-bars-a1-a2-paper.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p150716ar2-crazy-bus-lounge-release.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p151118a-reason-readability.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p170216a-tall-screens.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p170821a-gate-inop-auto-end-default.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p180720ar2-new-spare-command.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p180925a-dl-lozenge-height-override.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p190319ar6-short-ground-time.wfa90
+C:\Program Files (x86)\Ascent\ARIS\gm\p200819ar2-dl-aris-cutover
+C:\Program Files (x86)\Ascent\ARIS\gm\p160519a
+C:\Program Files (x86)\Ascent\ARIS\gm\p201002-load-ongr
+C:\Program Files (x86)\Ascent\ARIS\gm\p201104-bugrep
+C:\Program Files (x86)\Ascent\ARIS\gm\p201104-through-fl
+C:\Program Files (x86)\Ascent\ARIS\gm\p171127ar7-gate-fixed-all
+
+Lisp implementation type      : "Allegro CL Enterprise Edition"
+Lisp implementation version   : "9.0 [Windows] (Oct 10, 2013 14:46)"
+Machine type                  : "x86"
+Machine version               : "x86"
+Machine instance              : "XATLCAMP24130"
+Software type                 : "Microsoft Windows XP/Vista/7 & Server"
+Software version              : "Generic"
+Short site name               : "XATLCAMP24130"
+Object file ID                : ("lisp_build 29")
+PATH                          : 
+   C:\Program Files (x86)\Ascent\aris\bin
+   C:\Program Files (x86)\Ascent\aris\Perl\bin
+   C:\Program Files (x86)\Hummingbird\Connectivity\14.00\Exceed
+   C:\Program Files (x86)\Ascent\aris\oracle\instantclient_12_2
+   C:\Python310\Scripts\
+   C:\Python310\
+   C:\oracle\product\V11.2.0.10\bin
+   C:\Program Files (x86)\Business Objects\BusinessObjects Enterprise 12.0\win32_x86\
+   C:\windows\system32
+   C:\windows
+   C:\windows\System32\Wbem
+   C:\windows\System32\WindowsPowerShell\v1.0\
+   C:\windows\System32\OpenSSH\
+   C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0
+   C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0
+   C:\Program Files (x86)\DAL\Common Files\System
+   C:\IBM\RationalSDLC\common
+   C:\IBM\RationalSDLC\ClearCase\bin
+   C:\Program Files (x86)\IBM\gsk8\lib
+   C:\Program Files (x86)\IBM\gsk8\bin
+   C:\IBM\RationalSDLC\clearcase\RemoteClient\cteapis
+   C:\Oracle\Middleware\EPMSystem11R1\common\ODBC\Merant\7.0
+   C:\Program Files\Git\cmd
+   C:\Program Files\nodejs\
+   C:\ProgramData\chocolatey\bin
+   C:\Users\u92025\AppData\Local\Microsoft\WindowsApps
+   C:\Users\u92025\AppData\Roaming\npm
+Command line arguments        : ("C:\\Program Files (x86)\\Ascent\\Aris\\bin\\GMLISP13.EXE")
+DISPLAY                       : NIL
+Multiuser update number size  : big
+Multiuser session id size     : big
+ARIS_RUNTIME                  : "C:\\Program Files (x86)\\Ascent\\ARIS"
+p131213b-version-code         : "N1230-1 +18c"
+p140510a-version-code         : "O0603-1"
+
+Starting application: December 6, 2021 16:39 UTC
+
+Definitions changed (or created) in files loaded via load-patches:
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\cpv-Nina-p06.lnf"
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p140726a.lnf"
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p141103a.lnf"
+  (:OPERATOR (OUTPUT-FOR-GATE-CHART CONDITION-INTERVAL) DEFMETHOD)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p150206a-drag-tow-patch.lnf"
+  (:OPERATOR (DRAW-COUNTS-BY-QUARTERS SCROLLING-GRID-PANE) DEFMETHOD)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p150227a-hc-red-bars-a1-a2-paper.lnf"
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p150716ar2-crazy-bus-lounge-release.lnf"
+  RELEASE-INFORMATION-TOP-LEVEL
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p151118a-reason-readability.lnf"
+  (:OPERATOR
+   (OBTAIN-REASON-FOR-GATE-CHANGE REASON-FOR-GATE-CHANGE-POPUP-FRAME)
+   DEFMETHOD)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p170216a-tall-screens.lnf"
+  (:OPERATOR (FIX-ARIS-CONTROL-FRAME-2017-02-16 ARIS-CONTROL-FRAME)
+   DEFMETHOD)
+  ARIS-CONTROL-FRAME-CONFIGURATIONS
+  (:VARIABLE *TALL-SCREEN-THRESHOLD*)
+  (:OPERATOR FACF-WRAP EXCL:DEF-FWRAPPER)
+  COMMAND-FRAME-HEIGHT
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p170821a-gate-inop-auto-end-default.lnf"
+  (:VARIABLE *GATE-INOP-AUTO-END-DEFAULT*)
+  (:OPERATOR GATE-INOP DEFUN-COMMAND)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p180720ar2-new-spare-command.lnf"
+  EMPTY-GATE-LIST-AT-T
+  GENERAL-INOP-AT-TIME
+  (:OPERATOR SPARE-GATES DEFUN-COMMAND)
+  GATE-EMPTY-AT-TIME
+  (:VARIABLE *SPARE-GATES-EXCLUDED-CONCOURSES*)
+  (:VARIABLE *MAX-EMPTY-GATES-SHOWN*)
+  EMPTY-GATES-IN-CONCOURSE
+  EMPTY-GATES-FOR-ALL-CONCOURSES
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p180925a-dl-lozenge-height-override.lnf"
+  (:OPERATOR (COMPUTE-CHART-PARAMETERS SCROLLING-GRID-PANE) DEFMETHOD)
+  (:OPERATOR (COMPUTE-CHART-PARAMETERS GRID-PANE :BEFORE) DEFMETHOD)
+  (:VARIABLE *OVERRIDE-CHART-CELL-HEIGHT*)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p190319ar6-short-ground-time.lnf"
+  (:OPERATOR (AC-SPECS-ARRIVAL-TIME-THROUGH-DOMESTIC EXTENDED-AC-SPECS)
+   DEFMETHOD)
+  (:OPERATOR
+   (AC-SPECS-DEPARTURE-TIME-THROUGH-DOMESTIC EXTENDED-AC-SPECS)
+   DEFMETHOD)
+  (:OPERATOR (QUALIFIES-FOR-DELTA-MSGT-P GATE-ASSIGNMENT) DEFMETHOD)
+  (:OPERATOR
+   (AC-SPECS-DEPARTURE-TIME-THROUGH-INTERNATIONAL EXTENDED-AC-SPECS)
+   DEFMETHOD)
+  (:OPERATOR (THROUGH-AND-TURN-TIMES-DISAGREE EXTENDED-AC-SPECS)
+   DEFMETHOD)
+  (:OPERATOR (FORMAT-FLIGHT GATE-ASSIGNMENT) DEFWHOPPER)
+  (:VARIABLE *HIGHLIGHT-WITHIN-MINUTES-OF-MSGT*)
+  (:OPERATOR (DRAW-OUTLINE-AROUND-SELF GATE-ASSIGNMENT) DEFMETHOD)
+  (:OPERATOR (MINIMUM-STANDARD-GROUND-TIME EXTENDED-AC-SPECS) DEFMETHOD)
+  (:OPERATOR WITH-LOZENGE-OUTLINE-ALU-TEMPORARILY-SET DEFMACRO)
+  (:OPERATOR (APPROPRIATE-MINIMUM-GATE-TIME GATE-ASSIGNMENT) DEFWHOPPER)
+  (:OPERATOR
+   (AC-SPECS-ARRIVAL-TIME-THROUGH-INTERNATIONAL EXTENDED-AC-SPECS)
+   DEFMETHOD)
+  (:VARIABLE *DELTA-STYLE-MSGT*)
+  (:OPERATOR (SET-OUTLINE-ALU BASIC-LOZENGE-DRAWING-MIXIN) DEFMETHOD)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p200819ar2-dl-aris-cutover.lnf"
+  (:VARIABLE APM::*DL-STATION-SCHEMAS*)
+  APM::DOWNLOAD-DATABASE-LOGON-PARAMETERS
+  (:OPERATOR APM::START-SP DEFINE-START-APPLICATION)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p160519a.lnf"
+  (:OPERATOR LOAD-DAY DEFUN-COMMAND)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p201002-load-ongr.lnf"
+  (:OPERATOR APM::GET-LEGS-FOR-AIRCRAFT-ON-GROUND
+   DB:DEFINE-ORACLE-TRANSACTION)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p201104-bugrep.lnf"
+  WRITE-BUG-REPORT-INFORMATION
+  (:OPERATOR BUG-REPORT DEFUN-COMMAND)
+  MAIL-BUG-REPORT-MSG
+  (:VARIABLE *BUG-REP-MAIL-CC*)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p201104-through-fl.lnf"
+  (:OPERATOR (TURN-FROM-DATABASE-KEY FLIGHT-LEG) DEFMETHOD)
+  (:OPERATOR (TURN-TO-DATABASE-KEY FLIGHT-LEG) DEFMETHOD)
+  (:VARIABLE *GEN-THROUGH-FLIGHT-KEYLIST-FOR-TURNS*)
+Patch file: #P"C:\\Program Files (x86)\\Ascent\\ARIS\\gm\\p171127ar7-gate-fixed-all.lnf"
+  (:VARIABLE *DBG-GATE-FIXED-ALL*)
+  AK::INTEGER-OR-ALL-P
+  (:VARIABLE *GATE-FIXED-MAX-ITERATIONS*)
+  (:TYPE
+   (AK::INTEGER-OR-ALL "an integer or ALL" "a whole number or ALL"
+    :MOUSE-SENSITIVITY :NONE)
+   DEFINPUT-TYPE)
+  DBG-GATE-FIXED-STATE
+  (:OPERATOR GATE-FIXED DEFUN-COMMAND)
+  GATE-FIXED-LOOP
+  (:VARIABLE *INOP-REASON-MAX-LENGTH*)
+  (:OPERATOR
+   (AK::INTEGER-OR-ALL "an integer or ALL" "a whole number or ALL"
+    :MOUSE-SENSITIVITY :NONE)
+   DEFINPUT-TYPE)
+  GATE-FIXED-INTERNAL
+
+
+Attempting to connect to XATLCAMP24130.delta.rl.delta.com for an X connection...
+[System sub-process 24408 spawned for "C:\\Program Files (x86)\\Ascent\\ARIS\\forth\\forth.BAT".]
+[Attempting to execute "C:\\Program Files (x86)\\Ascent\\ARIS\\forth\\forth.BAT" for connection:
+  #<EXCL:TERMINAL-SIMPLE-STREAM  fd 6/5 @ #x2354f692>]
+Calling connection initialization transactions.
+X Forth version info: "Ascent FORTH Version 11.18" "Tue Aug  2 15:56:56 GMT-5:00 2011" "Ascent C Forth: x11 oracle_v11" "i386" "Pentium" "NT" "4.0"
+[PAS X support version = 5.20]
+Initializing application: December 6, 2021 16:39 UTC
+
+ARIS_DB_ACCOUNT is set to aris/****@gkpprd11
+
+ARIS_DB_HOST is set to localhos
+Attempting to connect to localhos for a database connection...
+Evaluation stack:
+
+ ->(TPL::ZOOM-COMMAND :FROM-READ-EVAL-PRINT-LOOP NIL :MODERATE T :COUNT
+                      100)
+   (ERROR "~S does not identify a known TCP host." #1="localhos")
+   (AU:GET-TCP-HOST-NAME #1# T)
+   (ASYS:PRIMARY-HOST-NAME #1#)
+   (AU:OPEN-CONNECTION-STREAM #1# :CHARACTERS T
+                              :ALTERNATE-TCP-PORT-NUMBER NIL
+                              :ALTERNATE-TCP-SERVICE-NAME NIL
+                              :TCP-SERVICE-NAME :XPORT-PAS-10
+                              :UNIX-SOCKETPAIR-PROGRAM
+                              ("C:\\Program Files (x86)\\Ascent\\ARIS\\forth\\forth.BAT")
+                              :UNIX-DOMAIN-SOCKET "/tmp/FORTH"
+                              :NAMED-PIPE-RENDEZVOUS
+                              "/tmp/named_pipes/FORTH" :BUFFER-SIZE NIL)
+   (VXC::GET-PAS-CONNECTION-INTERNAL-1 #1#
+                                       #2=(:INITIALIZATION-TRANSACTIONS
+                                           (((:DATABASE :SYBASE)
+                                             APM::CREATE-#LEG_KEYS)
+                                            ((:DATABASE :ORACLE)
+                                             APM::SET-MODULE-INFO)
+                                            ((:DATABASE :ORACLE)
+                                             APM::REPORT-ORACLE-LANGUAGE-PARAMETER)
+                                            ((:DATABASE :ORACLE)
+                                             APM::ENSURE-NLS-PARAMETERS)
+                                            DB::GET-FORTH-VERSION-INFO)))
+   (VXC::GET-PAS-CONNECTION-INTERNAL #1# #2#)
+   (VXC:GET-PAS-CONNECTION #1# . #2#)
+   (DB::OPEN-DATABASE-CONNECTION)
+   (DB:GET-DATABASE-CONNECTION)
+   (APM::DOWNLOAD-DATABASE-LOGON-PARAMETERS :FIND-VALUE)
+   (APM:SET-ARIS-DATABASE-ACCOUNT :FIND-VALUE)
+   (APM:GET-ARIS-DATABASE-ACCOUNT :IF-NOT-SET :SET)
+   (GK::INITIALIZE-GK-COMPLETELY :AIRPORT-CODE NIL :DB-ACCOUNT NIL)
+   (GK::|START-GM internal|)
+   (EVAL #3=(APPLY 'GK::|START-GM internal| 'NIL))
+   (AK:START-APPLICATION #3# START-GM)
+   (START-GM)
+   (PROGN . #4=((START-GM) (EXIT)))
+   (EVAL (PROGN . #4#))
+   (TPL:TOP-LEVEL-READ-EVAL-PRINT-LOOP)
+   (READ-EVAL-PRINT-TOP-LEVEL-APP-FUNCTION)
+   (TPL:START-INTERACTIVE-TOP-LEVEL
+      #<TERMINAL-SIMPLE-STREAM [initial terminal io] fd 0/1 @
+        #x2026bf22>
+      READ-EVAL-PRINT-TOP-LEVEL-APP-FUNCTION NIL)
+
+(to see any ghost frames, the disassembler must be loaded)
+Error: "localhos" does not identify a known TCP host.
+
+Restart actions (select using :continue):
+ 0: Reload all known patch files
+ 1: Return to Top Level (an "abort" restart).
+ 2: Abort entirely from this (lisp) process.
+
+[changing package from "COMMON-LISP-USER" to "GATEKEEPER"]
+[1] GK(2): 
